@@ -1,0 +1,212 @@
+﻿.CanstarLoanComparison {
+    background: url('../../../../../authoring.livebroker.com.au/media/LiveBroker/General/body_background.jpg');
+    background-position: center;
+    max-width: 1020px;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-purple {
+    background-color: #AE6AAB;
+    min-height: 600px;
+}
+
+.main-label {
+    color: #FFF;
+    margin-top: 27px;
+    margin-bottom: 14px;
+}
+
+.custom-inputbox {
+    height: 49px;
+    color: #7EBA9E;
+    font-size: 27px;
+}
+
+.panel-default {
+    border-color: transparent;
+}
+
+.panel {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.panel-default > .panel-heading {
+    color: #F7F7F7;
+    background-color: transparent;
+    border-color: #ddd;
+}
+
+    .panel-default > .panel-heading + .panel-collapse .panel-body {
+        border-top-color: transparent;
+    }
+
+.panel-group .panel-heading {
+    border-bottom: 1px solid #FFF;
+}
+
+.top-heading {
+    border-top: 1px solid #FFF;
+}
+
+.panel-body label {
+    color: #F7F7F7;
+    padding-left: 0;
+}
+
+.panel-title a, .panel-title a:link, .panel-title a:active, .panel-title a:hover, .panel-title a:focus {
+    text-decoration: none;
+}
+
+.small {
+    font-size: 75%;
+}
+
+.custom-button-green, .custom-button-green:hover, .custom-button-green:active {
+    margin-bottom: 20px;
+    background-color: #75C49F;
+    color: #FFF;
+    border: 1px solid #62AA89;
+    min-width: 224px;
+    height: 50px;
+    background-image: url('../../../../media/LiveBroker/General/arrow-right-white.png');
+    background-repeat: no-repeat;
+    background-position: 14px;
+    border-bottom: 3px solid #5C9D7B;
+}
+
+.custom-button-orange, .custom-button-orange:hover, .custom-button-orange:active {
+    background-color: #FE7C5C;
+    color: #FFF;
+    min-width: 125px;
+    height: 36px;
+    border: 1px solid #B26552;
+    border-bottom: 3px solid #D34E2D;
+}
+
+.custom-button-purple, .custom-button-purple:hover, .custom-button-purple:active {
+    background-color: #AE6AAB;
+    color: #FFF;
+    min-width: 113px;
+    height: 36px;
+    border: 1px solid #B373B0;
+    margin-top: 12px;
+    margin-left: -6px;
+    border-bottom: 3px solid #673864;
+}
+
+span.pull-right.glyphicon.glyphicon-chevron-down {
+    right: -8px;
+    background-image: url('../../../../media/LiveBroker/General/arrow-down-white.png');
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+
+span.pull-right.glyphicon.glyphicon-chevron-up {
+    right: -8px;
+    background-image: url('../../../../media/LiveBroker/General/arrow-up-white.png');
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+
+a.purple-link, a.purple-link:hover {
+    color: #AE6AAB;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.panel-body .checkbox {
+    padding-left: 16px;
+}
+
+.checkbox input[type=checkbox] {
+    margin-left: -35px;
+}
+
+.tbl-header {
+    min-height: 130px;
+}
+
+.tbl-rate {
+    min-height: 55px;
+    padding: 17px 5px 10px 0px;
+}
+
+.tbl-info {
+    min-height: 95px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.addMargin {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.other-product-coRate {
+    color: #808080;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.other-product-inRate {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+span.imgCheckbox.tick {
+    background-image: url('../../../../media/LiveBroker/General/toggle-tick.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 25px;
+    width: 27px;
+    margin-left: -22px;
+}
+
+span.imgCheckbox {
+    background-image: url('../../../../media/LiveBroker/General/toggle-untick.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 25px;
+    width: 27px;
+    margin-left: -22px;
+}
+.custPadding {
+    padding-left:0;
+
+}
+
+.border-bottom {
+    border-bottom: 1px solid #ccc;
+}
+
+.border-left {
+    border-left: 1px solid #ccc;
+}
+
+.move-padding-left {
+    padding-left: 0px;
+}
+
+    .move-padding-left > div {
+        padding-left: 15px;
+    }
+
+.move-padding-right {
+    padding-right: 0px;
+}
+
+    .move-padding-right > div {
+        padding-right: 15px;
+    }
+
+span.scrollSpacer {
+font-size: .5px;
+min-width: 15px;
+display: inline-block;
+}

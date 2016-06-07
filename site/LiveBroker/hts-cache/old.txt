@@ -1,0 +1,3 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+10:47:17	315/315	---M--	404	error ('Not%20Found')	text/html	date:Thu,%2002%20Jun%202016%2000:47:16%20GMT	http://www.livebroker.com.au/robots.txt		(from )
+10:47:18	315/315	---M--	404	error ('Not%20Found')	text/html	date:Thu,%2002%20Jun%202016%2000:47:16%20GMT	http://www.livebroker.com.au/	C:/temp/websites/livebroker/LiveBroker/www.livebroker.com.au/index.html	(from )

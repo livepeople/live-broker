@@ -1,0 +1,30 @@
+HTTrack3.48-22+htsswf+htsjava launched on Thu, 02 Jun 2016 10:53:41 at http://www.livebroker.com.au +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://www.livebroker.com.au -O1 "C:\temp\websites\livebroker\LiveBroker" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:55:13	Error: 	"Bad Request" (400) at link www.googletagmanager.com/gtm.js?id= (from www.livebroker.com.au/)
+10:55:13	Error: 	"Not Found" (404) at link www.livebroker.com.au/gecko/ (from www.livebroker.com.au/)
+10:55:13	Error: 	"Not Found" (404) at link www.livebroker.com.au/applewebkit/ (from www.livebroker.com.au/)
+10:55:13	Error: 	"Not Found" (404) at link www.livebroker.com.au/mozilla/ (from www.livebroker.com.au/)
+10:55:54	Warning: 	Found for www.livebroker.com.au/arguments.caller not defined.  goog.base() expects not to be running in strict mode. See http://www.ecma-international.org/ecma-262/5.1/
+10:55:54	Warning: 	File has moved from www.livebroker.com.au/arguments.caller not defined.  goog.base() expects not to be running in strict mode. See http://www.ecma-international.org/ecma-262/5.1/ to /CMSMessages/error.aspx?aspxerrorpath=/arguments.caller%20not%20defined.%20%20goog.base()%20expects%20not%20to%20be%20running%20in%20strict%20mode.%20See%20http:/www.ecma-international.org/ecma-262/5.1/
+10:56:09	Error: 	"Not Found" (404) at link www.livebroker.com.au/POST (from www.livebroker.com.au/WebResource.axd?d=1zNsF2nMau0dpP2DA0PDf_l9XmW-ZIYKTnFJy1AMU5S3w5xdB2OBti4ukNDyGoNVM638XNfRmuZ2afATK7KnxgVCvChUAWFHAKGeZsp1WGk1&t=635793387671809273)
+10:56:09	Error: 	"Not Found" (404) at link www.livebroker.com.au/Firefox/ (from www.livebroker.com.au/ScriptResource.axd?d=wNrmboylj47vhtAdrJzoFfsq50kp3SpUh1o7e4FpZeYyPz3515bBSpZ_AKMkr49X53HNP3LtVlcoX_M1wpY5zs2y5f89pfsjhlaPXdYgD0t9u1X1QXjWbMh12dw52zFw0&t=7c776dc1)
+10:56:09	Error: 	"Not Found" (404) at link www.livebroker.com.au/AppleWebKit/ (from www.livebroker.com.au/ScriptResource.axd?d=wNrmboylj47vhtAdrJzoFfsq50kp3SpUh1o7e4FpZeYyPz3515bBSpZ_AKMkr49X53HNP3LtVlcoX_M1wpY5zs2y5f89pfsjhlaPXdYgD0t9u1X1QXjWbMh12dw52zFw0&t=7c776dc1)
+10:56:09	Error: 	"Not Found" (404) at link www.livebroker.com.au/Opera/ (from www.livebroker.com.au/ScriptResource.axd?d=wNrmboylj47vhtAdrJzoFfsq50kp3SpUh1o7e4FpZeYyPz3515bBSpZ_AKMkr49X53HNP3LtVlcoX_M1wpY5zs2y5f89pfsjhlaPXdYgD0t9u1X1QXjWbMh12dw52zFw0&t=7c776dc1)
+10:56:09	Error: 	"Not Found" (404) at link www.livebroker.com.au/MicrosoftAjaxWebForms.js (from www.livebroker.com.au/ScriptResource.axd?d=9q0YR4AJJWZtucfMC0pLashWUIocJ2LLTWUAz3uGKTIlqSTIguLU-1Nn-FlqKd8LJQpB7MseRDcecuqWgUJiGJk2IHZpcXJYmRSy8UCPZyh_VBTOLjZ990Gdly2pVUkqGWu1Y6Qnlq_NWEyf4B7rtQ2&t=7c776dc1)
+10:56:09	Error: 	"Not Found" (404) at link www.livebroker.com.au/MicrosoftAjaxSerialization.js (from www.livebroker.com.au/ScriptResource.axd?d=9q0YR4AJJWZtucfMC0pLashWUIocJ2LLTWUAz3uGKTIlqSTIguLU-1Nn-FlqKd8LJQpB7MseRDcecuqWgUJiGJk2IHZpcXJYmRSy8UCPZyh_VBTOLjZ990Gdly2pVUkqGWu1Y6Qnlq_NWEyf4B7rtQ2&t=7c776dc1)
+10:56:09	Error: 	"Not Found" (404) at link www.livebroker.com.au/MicrosoftAjaxNetwork.js (from www.livebroker.com.au/ScriptResource.axd?d=9q0YR4AJJWZtucfMC0pLashWUIocJ2LLTWUAz3uGKTIlqSTIguLU-1Nn-FlqKd8LJQpB7MseRDcecuqWgUJiGJk2IHZpcXJYmRSy8UCPZyh_VBTOLjZ990Gdly2pVUkqGWu1Y6Qnlq_NWEyf4B7rtQ2&t=7c776dc1)
+10:56:16	Error: 	"Not Found" (404) at link www.livebroker.com.au/Calculator/gecko/ (from www.livebroker.com.au/Calculator/How-much-can-I-borrow)
+10:56:16	Error: 	"Not Found" (404) at link www.livebroker.com.au/Calculator/applewebkit/ (from www.livebroker.com.au/Calculator/How-much-can-I-borrow)
+10:56:16	Error: 	"Not Found" (404) at link www.livebroker.com.au/Calculator/mozilla/ (from www.livebroker.com.au/Calculator/How-much-can-I-borrow)
+10:56:16	Warning: 	Retry after error 500 (Internal Server Error) at link www.livebroker.com.au/CMSMessages/error.aspx?aspxerrorpath=/arguments.caller%20not%20defined.%20%20goog.base()%20expects%20not%20to%20be%20running%20in%20strict%20mode.%20See%20http:/www.ecma-international.org/ecma-262/5.1/ (from www.livebroker.com.au/arguments.caller not defined.  goog.base() expects not to be running in strict mode. See http://www.ecma-international.org/ecma-262/5.1/)
+10:56:18	Warning: 	Retry after error 500 () at link www.livebroker.com.au/CMSMessages/error.aspx?aspxerrorpath=/arguments.caller%20not%20defined.%20%20goog.base()%20expects%20not%20to%20be%20running%20in%20strict%20mode.%20See%20http:/www.ecma-international.org/ecma-262/5.1/ (from www.livebroker.com.au/arguments.caller not defined.  goog.base() expects not to be running in strict mode. See http://www.ecma-international.org/ecma-262/5.1/)
+10:56:18	Error: 	"" (500) after 2 retries at link www.livebroker.com.au/CMSMessages/error.aspx?aspxerrorpath=/arguments.caller%20not%20defined.%20%20goog.base()%20expects%20not%20to%20be%20running%20in%20strict%20mode.%20See%20http:/www.ecma-international.org/ecma-262/5.1/ (from www.livebroker.com.au/arguments.caller not defined.  goog.base() expects not to be running in strict mode. See http://www.ecma-international.org/ecma-262/5.1/)
+
+HTTrack Website Copier/3.48-22 mirror complete in 2 minutes 37 seconds : 128 links scanned, 109 files written (4764836 bytes overall), 110 files updated [4548512 bytes received at 28971 bytes/sec], 396320 bytes transferred using HTTP compression in 6 files, ratio 30%, 1.0 requests per connection
+(15 errors, 4 warnings, 0 messages)

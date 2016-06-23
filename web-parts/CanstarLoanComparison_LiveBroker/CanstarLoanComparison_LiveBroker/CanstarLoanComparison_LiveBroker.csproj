@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ECC3D63E-608F-4FAB-96EE-B6BE2ADFCB3C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CanstarLoanComparison_LiveBroker</RootNamespace>
+    <AssemblyName>CanstarLoanComparison_LiveBroker</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CMS.Base">
+      <HintPath>..\..\..\..\..\BuildServerBinaries\Kentico\8.0.14\CMS.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Core">
+      <HintPath>..\..\..\..\..\BuildServerBinaries\Kentico\8.0.14\CMS.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.DataEngine">
+      <HintPath>..\..\..\..\..\BuildServerBinaries\Kentico\8.0.14\CMS.DataEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.ExtendedControls">
+      <HintPath>..\..\..\..\..\BuildServerBinaries\Kentico\8.0.14\CMS.ExtendedControls.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Globalization">
+      <HintPath>..\..\..\..\..\BuildServerBinaries\Kentico\8.0.14\CMS.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.Helpers">
+      <HintPath>..\..\..\..\..\BuildServerBinaries\Kentico\8.0.14\CMS.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.PortalControls">
+      <HintPath>..\..\..\..\..\BuildServerBinaries\Kentico\8.0.14\CMS.PortalControls.dll</HintPath>
+    </Reference>
+    <Reference Include="CMS.PortalEngine">
+      <HintPath>..\..\..\..\..\BuildServerBinaries\Kentico\8.0.14\CMS.PortalEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\BuildServerBinaries\Kentico\8.0.14\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CMSWebParts\Firstmac\Retail\CanstarLoanComparison_LiveBroker.ascx" />
+    <Content Include="CMSWebParts\Firstmac\Retail\CanstarLoanComparison_LiveBroker_Feeder.ascx" />
+    <Content Include="CMSWebParts\Firstmac\Retail\CanstarLoanComparison_LiveBroker_files\CanstarLoanComparison.css" />
+    <Content Include="CMSWebParts\Firstmac\Retail\CanstarLoanComparison_LiveBroker_files\CanstarLoanComparison.js" />
+    <Content Include="CMSWebParts\Firstmac\Retail\CanstarLoanComparison_LiveBroker_Mini.ascx" />
+    <Content Include="CMSWebParts\Firstmac\Retail\CanstarLoanComparison_LiveBroker_Mini_files\script.js" />
+    <Content Include="CMSWebParts\Firstmac\Retail\CanstarLoanComparison_LiveBroker_Feeder_files\script.js" />
+    <Content Include="CMSWebParts\Firstmac\Retail\CanstarProductView.ascx" />
+    <Content Include="CMSWebParts\Firstmac\Retail\CanstarProductView_files\script.js" />
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:52843/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <!-- Start Zip target -->
+  <ItemGroup>
+    <!-- 
+      Add all *.dll files found in the root of the "bin" folder as link files.
+      - Use Files="@(Content);@(Link)" in the zip target the include both content files as build output in the zip content. 
+      - Using the "@(Content);@(Link)" notation, will merge ItemGroup Content and ItemGroup Link into one property. 
+      - The ".\" before the "bin" folder name in the Include, results in a zip package containing the bin folder.
+      - If you do not want to include the "bin" folder itself but only the files, use "bin\*.dll".
+      - If you want to include subfolders use ".\bin\**\*.dll"
+    -->
+    <Link Include=".\bin\*.dll" Exclude=".\bin\$(AssemblyName).dll" />
+    <!--  We don’t want to deploy our project DLL for Kentico so exclude it explicitly     -->
+    <Link Include=".\App_Code\**\*.cs" />
+    <!--  Add any Kentico related folders explicitly. Can’t just wildcare all *.cs files as temp compilation files will be included     -->
+    <Link Include=".\CMSWebParts\Firstmac\Retail\CanstarLoanComparison_LiveBroker.ascx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Link>
+    <Link Include="CMSWebParts\Firstmac\Retail\CanstarLoanComparison_LiveBroker_Mini.ascx.cs">
+      <DependentUpon>CanstarLoanComparison_LiveBroker_Mini.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Link>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CMSWebParts\Firstmac\Retail\CanstarLoanComparison_LiveBroker.ascx.cs">
+      <DependentUpon>CanstarLoanComparison_LiveBroker.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CMSWebParts\Firstmac\Retail\CanstarLoanComparison_LiveBroker_Feeder.ascx.cs">
+      <DependentUpon>CanstarLoanComparison_LiveBroker_Feeder.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Link Include="CMSWebParts\Firstmac\Retail\CanstarProductView.ascx.cs">
+      <DependentUpon>CanstarProductView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Link>
+  </ItemGroup>
+  <!-- 
+    A relative path will start from the *.csproj file location, 
+    so to get to the MSBuild.Community.Tasks.Targets file, we must add "..\.build\".
+  -->
+  <Import Project="..\.build\MSBuild.Community.Tasks.Targets" />
+  <!-- 
+    The afterbuild target will only be executed, when the project is build in "Release" mode.
+  -->
+  <Target Name="AfterBuild" Condition="'$(Configuration)' == 'Release'">
+    <PropertyGroup>
+      <ReleasePath>bin</ReleasePath>
+    </PropertyGroup>
+    <Zip Files="@(Content);@(Link)" WorkingDirectory="$(ReleasePath)" ZipFileName="..\deploy\$(AssemblyName).zip" ZipLevel="9" />
+  </Target>
+  <!-- End Zip target -->
+</Project>
